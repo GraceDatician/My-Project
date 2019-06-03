@@ -1,0 +1,144 @@
+
+/*先删除默认的内外边距*/
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+    background-color: #fafafa;
+}
+/*顶部导航栏开始啦*/
+.header {
+	height: 100px;
+	background-color: #fff;
+}
+.inner {
+    height: 100px;
+    width: 1200px;
+    // background-color: pink;
+    margin: 0 auto;
+    line-height: 100px;
+ }
+ .logo {
+ 	float: left;          
+ }
+.nav {
+ float: right;
+  /*display: inline-block;*/
+}
+ .nav li {
+  float: left; 
+  list-style: none;  /*去掉 li的小点*/
+  margin: 0 20px;
+ }
+
+.nav li a {
+	color: #333;
+	font-size: 20px;
+	text-decorationL: none;
+}
+.nav li a:hover {
+    color: #52a0eb;
+}
+/*顶部导航栏结束了*/
+/*banner start */
+.banner {
+  height: 620px;
+ background: url(../images/banner.png) no-repeat top center;
+ }
+ /*banner end */
+/*我们的服务开始了*/
+.service {
+  margin: 65px auto 0;
+   width: 1055px;
+}
+.top {
+   margin: 0 25px;
+   /*padding-top: 1px;*/
+}
+.top h2 {
+  width: 167px;
+  height: 46px;
+  margin: -12px auto 0;
+  font-weight: normal;
+}
+.top p {
+  font-size: 12px;
+  color: #969696;
+  text-align: center;
+  line-height: 25px;
+  width: 840px;
+  margin: 15px auto 0; 
+}
+
+.mainone {
+  float: left;
+  margin: 50px 0 23px 0;
+  width: 320px;
+}
+.mainone h2 {
+  text-align: center;
+  color:  #333;
+  font-weight: normal;
+}
+.mainone p {
+  font-size: 12px;
+  color: #666;
+  line-height: 25px;
+  width: 240px;
+  margin: 15px auto 0; 
+}
+.main1 {
+  width: 150px;
+  height: 40px;
+  border: 1px solid #ff9412;
+  border-radius: 5px;
+  margin: 40px auto 55px;
+  text-align: center;
+  line-height: 40px;
+}
+.mainone a {
+  width: 150px;
+  height: 40px;
+  color: #ff9412;
+  text-decoration: none;
+}
+.mainone a:hover {
+  /*background-color: #ff9412;*/
+  color: #ffffff;
+  border-color: #ff9412;
+}
+
+.maintwo {
+  float: left;
+  margin: 50px 23px 0;
+}
+.maintwo h2 {
+  text-align: center;
+  color:  #333;
+  font-weight: normal;
+}
+.maintwo p {
+  font-size: 12px;
+  color: #666;
+  line-height: 25px;
+  width: 240px;
+  margin: 15px auto 0;
+  
+}
+.mainthree {
+  float: left; 
+  margin: 50px 23px 0 0;
+}
+.mainthree h2 {
+  text-align: center;
+  color:  #333;
+  font-weight: normal;
+}
+.mainthree p {
+  font-size: 12px;
+  color: #666;
+  line-height: 25px;
+  width: 240px;
+  margin: 15px auto 0;
+}
